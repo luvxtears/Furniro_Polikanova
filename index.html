@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Furniro</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+    <a href="#">
+        <img src="assets/images/logo.svg" alt="">
+    </a>
+</div>
+<nav class="header__nav">
+    <ul class="header__list">
+        <li class="header__list-item">
+            <a href="index.html">
+                Home
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="shop.html">
+                Shop
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="blog.html">
+                About
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="contact.html">
+                Contact
+            </a>
+        </li>
+    </ul>
+</nav>
+<div class="header__icons">
+    <ul class="header__list-icons">
+        <li class="header__icons-item">
+            <a href="checkout.html">
+                <img src="assets/images/icon1.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <a href="shop.html">
+                <img src="assets/images/icon2.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <a href="#">
+                <img src="assets/images/icon3.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <label for="toggle-modal" class="modal-icon">
+                <img src="assets/images/icon4.svg" alt="">
+            </label>
+        </li>
+    </ul>
+</div>
+
+
+
+<input type="checkbox" id="toggle-modal" class="modal-toggle">
+<label for="toggle-modal" class="modal-overlay"></label>
+<div class="modal">
+    <div class="modal__title">Shopping Cart</div>
+    <div class="modal__list">
+        <div class="modal__list-item">
+            <img src="/assets/images/sofa4.png" class="modal__image">
+            <div class="modal__list-item-content">
+                <div>Asgaard sofa</div>
+                <div class="modal__list-item-content-price">
+                    1 X <div class="modal__list-item-content-price1">Rs. 250,000.00</div>
+                </div>
+            </div>
+            <a href="#"><img src="assets/images/del.svg" alt=""></a>
+        </div>
+        <div class="modal__list-item">
+            <img src="/assets/images/sofa3.webp" alt="">
+            <div class="modal__list-item-content">
+                <div>Casaliving Wood</div>
+                <div class="modal__list-item-content-price">
+                    1 X <div class="modal__list-item-content-price1">Rs. 270,000.00</div>
+                </div>
+            </div>
+            <a href="#"><img src="assets/images/del.svg" alt=""></a>
+        </div>
+    </div>
+    <div class="modal__subtitle">
+        <div>Subtotal</div>
+        <div class="modal__subtitle-price">Rs. 520,000.00</div>
+    </div>
+    <div class="modal__btns">
+        <a href="cart.html"><button class="modal__btns-btn">Cart</button></a>
+        <a href="checkout.html"><button class="modal__btns-btn">Checkout</button></a>
+        <a href="comparison.html"><button class="modal__btns-btn">Comparison</button></a>
+    </div>
+    <label for="toggle-modal" class="modal-close">
+        <img src="assets/images/shop2.svg" alt="">
+    </label>
+</div>
+    </header>
+    <main class="main">
+        <section class="banner">
+    <div class="banner__card">
+        <div class="banner__card-label">
+            New Arrival
+        </div>
+        <div class="banner__card-title">
+            Discover Our <br>New Collection
+        </div>
+        <div class="banner__card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+        </div>
+        <button class="bunner__card-btn">buy now</button>
+    </div>
+</section>
+        <section class="browse">
+    <div class="browse__title">
+        <div class="browse__title-head">Browse The Range</div>
+        <div class="browse__title-subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    </div>
+    <div class="browse__cards">
+        <div class="browse__cards-card">
+            <img src="/assets/images/image1.webp" class="browse__cards-img">
+            <div>Dining</div>
+        </div>
+        <div class="browse__cards-card">
+            <img src="/assets/images/image2.webp" class="browse__cards-img">
+            <div>Living</div>
+        </div>
+        <div class="browse__cards-card">
+            <img src="/assets/images/image3.webp" class="browse__cards-img">
+            <div>Bedroom</div>
+        </div>
+    </div>
+</section>
+        <section class="products">
+    <div class="container">
+        <div class="products__head">
+            Our Products
+        </div>
+        <div class="products__list">
+            <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card1.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Syltherine
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -30%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card2.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Leviosa
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(&#32;)">
+                    &#32;
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card3.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Lolito
+                </p>
+                <p class="products__card-disc">
+                    Luxury big sofa
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -50%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card4.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Respira
+                </p>
+                <p class="products__card-disc">
+                    Outdoor bar table and stool
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--new-color)">
+                    New
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card5.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Grifo
+                </p>
+                <p class="products__card-disc">
+                    Night lamp
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 1.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(&#32;)">
+                    &#32;
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card6.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Muggo
+                </p>
+                <p class="products__card-disc">
+                    Small mug
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 150.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--new-color)">
+                    New
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card7.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Pingky
+                </p>
+                <p class="products__card-disc">
+                    Cute bed set
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 7.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -50%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card8.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Potty
+                </p>
+                <p class="products__card-disc">
+                    Minimalist flower pot
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--new-color)">
+                    New
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="products__btn">
+            <a href="shop.html" class="products__btn-button">
+                Show More
+            </a>
+        </div>
+    </div>
+</section>
+        <section class="rooms">
+    <div class="rooms__content">
+        <div class="rooms__title">
+            50+ Beautiful rooms inspiration
+        </div>
+        <div class="rooms__subtitle">
+            Our designer already made a lot of beautiful prototipe of rooms that inspire you
+        </div>
+        <button href="#!" class="rooms__btn">Explore More</button>
+    </div>
+    <div class="rooms__images">
+        <div class="rooms__images-image1">
+            <img src="assets/images/right.svg" class="rooms__images-image1-right">
+            <div class="rooms__images-image1-content">
+                <div class="rooms__images-image1-title">01 -
+                    Bed Room</div>
+                <div class="rooms__images-image1-subtitle">Inner Peace</div>
+            </div>
+        </div>
+        <div class="rooms__images-right">
+            <div class="rooms__images-right-images">
+                <div class="rooms__images-right-images-image2"></div>
+                <div class="rooms__images-right-images-image3"></div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="furniture">
+    <div class="furniture-lable">Share your setup with</div>
+    <div class="furniture-title">#FuniroFurniture</div>
+    <img src="/assets/images/background2.webp" class="furniture-background">
+</section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+    <div class="footer__top-grid">
+        <img src="assets/images/logo2.svg" class="logo-2" width="85px" height="36px">
+        <div class="footer__top-info">400 University Drive Suite 200 Coral <br> Gables, <br>FL 33134 USA</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Links</div>
+        <div class="footer__top-grid-item">Home</div>
+        <div class="footer__top-grid-item">Shop</div>
+        <div class="footer__top-grid-item">About</div>
+        <div class="footer__top-grid-item">Contact</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Help</div>
+        <div class="footer__top-grid-item">Payment Options</div>
+        <div class="footer__top-grid-item">Returns</div>
+        <div class="footer__top-grid-item">Privacy Policies</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Newsletter</div>
+        <form action="#" name="form">
+            <div class="footer__top-grid-form">
+                <input type="email" id="email" placeholder="Enter Your Email Address" required>
+                <button type="submit" id="submit">subscribe</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="footer__bottom">
+    <div class="footr__bottom-text">
+        2023 furino. All rights reverved
+    </div>
+</div>
+    </footer>
+</body>
+</html>

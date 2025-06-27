@@ -1,0 +1,1276 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Furniro</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+    <a href="#">
+        <img src="assets/images/logo.svg" alt="">
+    </a>
+</div>
+<nav class="header__nav">
+    <ul class="header__list">
+        <li class="header__list-item">
+            <a href="index.html">
+                Home
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="shop.html">
+                Shop
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="blog.html">
+                About
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="contact.html">
+                Contact
+            </a>
+        </li>
+    </ul>
+</nav>
+<div class="header__icons">
+    <ul class="header__list-icons">
+        <li class="header__icons-item">
+            <a href="checkout.html">
+                <img src="assets/images/icon1.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <a href="shop.html">
+                <img src="assets/images/icon2.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <a href="#">
+                <img src="assets/images/icon3.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <label for="toggle-modal" class="modal-icon">
+                <img src="assets/images/icon4.svg" alt="">
+            </label>
+        </li>
+    </ul>
+</div>
+
+
+
+<input type="checkbox" id="toggle-modal" class="modal-toggle">
+<label for="toggle-modal" class="modal-overlay"></label>
+<div class="modal">
+    <div class="modal__title">Shopping Cart</div>
+    <div class="modal__list">
+        <div class="modal__list-item">
+            <img src="/assets/images/sofa4.png" class="modal__image">
+            <div class="modal__list-item-content">
+                <div>Asgaard sofa</div>
+                <div class="modal__list-item-content-price">
+                    1 X <div class="modal__list-item-content-price1">Rs. 250,000.00</div>
+                </div>
+            </div>
+            <a href="#"><img src="assets/images/del.svg" alt=""></a>
+        </div>
+        <div class="modal__list-item">
+            <img src="/assets/images/sofa3.webp" alt="">
+            <div class="modal__list-item-content">
+                <div>Casaliving Wood</div>
+                <div class="modal__list-item-content-price">
+                    1 X <div class="modal__list-item-content-price1">Rs. 270,000.00</div>
+                </div>
+            </div>
+            <a href="#"><img src="assets/images/del.svg" alt=""></a>
+        </div>
+    </div>
+    <div class="modal__subtitle">
+        <div>Subtotal</div>
+        <div class="modal__subtitle-price">Rs. 520,000.00</div>
+    </div>
+    <div class="modal__btns">
+        <a href="cart.html"><button class="modal__btns-btn">Cart</button></a>
+        <a href="checkout.html"><button class="modal__btns-btn">Checkout</button></a>
+        <a href="comparison.html"><button class="modal__btns-btn">Comparison</button></a>
+    </div>
+    <label for="toggle-modal" class="modal-close">
+        <img src="assets/images/shop2.svg" alt="">
+    </label>
+</div>
+    </header>
+    <main class="main">
+        <section class="banner2">
+    <img src="/assets/images/logo-icon.svg" alt="" class="banner__logo">
+    <div class="banner2__title">Shop</div>
+    <div class="banner2__path">
+        <ul class="banner2__list">
+            <li class="banner2__item path-first">Home</li>
+            <li class="banner2__item">Shop</li>
+        </ul>
+    </div>
+</section>
+        <section class="sort">
+    <div class="sort__left">
+        <div class="sort__left-results">
+            <img src="assets/images/system-icons.svg" width="25px">
+            <div class="sort__left-results-text">Filter</div>
+            <img src="assets/images/big-round.svg" width="25px">
+            <img src="assets/images/view-list.svg" width="25px">
+        </div>
+        <div class="sort__left-showing">Showing 1–16 of 32 results</div>
+    </div>
+    <div class="sort__right">
+        <div class="sort__left_text">Show</div>
+        <select name="number" id="number">
+            <option value="val1">16</option>
+            <option value="val2">32</option>
+        </select>
+        <div class="sort__left_text">Short by</div>
+        <select name="short" id="short">
+            <option value="val1">Default</option>
+            <option value="val2">Name</option>
+            <option value="val3">Price</option>
+        </select>
+    </div>
+</section>
+        <div class="container">
+    <div class="products__list">
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card1.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Syltherine
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -30%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card2.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Leviosa
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(&#32;)">
+                    &#32;
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card3.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Lolito
+                </p>
+                <p class="products__card-disc">
+                    Luxury big sofa
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -50%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card4.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Respira
+                </p>
+                <p class="products__card-disc">
+                    Outdoor bar table and stool
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--new-color)">
+                    New
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card1.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Syltherine
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -30%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card2.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Leviosa
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(&#32;)">
+                    &#32;
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card3.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Lolito
+                </p>
+                <p class="products__card-disc">
+                    Luxury big sofa
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -50%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card4.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Respira
+                </p>
+                <p class="products__card-disc">
+                    Outdoor bar table and stool
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--new-color)">
+                    New
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card1.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Syltherine
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -30%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card2.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Leviosa
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(&#32;)">
+                    &#32;
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card3.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Lolito
+                </p>
+                <p class="products__card-disc">
+                    Luxury big sofa
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -50%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card4.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Respira
+                </p>
+                <p class="products__card-disc">
+                    Outdoor bar table and stool
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--new-color)">
+                    New
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card1.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Syltherine
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -30%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card2.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Leviosa
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(&#32;)">
+                    &#32;
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card3.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Lolito
+                </p>
+                <p class="products__card-disc">
+                    Luxury big sofa
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -50%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card4.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Respira
+                </p>
+                <p class="products__card-disc">
+                    Outdoor bar table and stool
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--new-color)">
+                    New
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card1.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Syltherine
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -30%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card2.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Leviosa
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(&#32;)">
+                    &#32;
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card3.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Lolito
+                </p>
+                <p class="products__card-disc">
+                    Luxury big sofa
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -50%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card4.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Respira
+                </p>
+                <p class="products__card-disc">
+                    Outdoor bar table and stool
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--new-color)">
+                    New
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card1.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Syltherine
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -30%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card2.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Leviosa
+                </p>
+                <p class="products__card-disc">
+                    Stylish cafe chair
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(&#32;)">
+                    &#32;
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card3.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Lolito
+                </p>
+                <p class="products__card-disc">
+                    Luxury big sofa
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 2.500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>Rp 3.500.000</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--sales-color)">
+                    -50%
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="products__card">
+    <div class="products__card-inner">
+        <div class="products__card-front">
+            <img src="/assets/images/image_card4.webp" class="products__card-img">
+            <div class="products__card-content">
+                <p class="products__card-name">
+                    Respira
+                </p>
+                <p class="products__card-disc">
+                    Outdoor bar table and stool
+                </p>
+                <div class="products__card-prices">
+                    <p class="products__card-price">
+                        Rp 500.000
+                    </p>
+                    <p class="products__card-oldprice">
+                        <s>&#32;</s>
+                    </p>
+                </div>
+                <div class="products__card-sale" style="background-color: var(--new-color)">
+                    New
+                </div>
+            </div>
+        </div>
+        <div class="products__card-back">
+            <div class="priducts__card-btn">
+                <a href="product.html"><button class="priducts__card-btn-button">Add to cart</button></a>
+            </div>
+            <div class="products__card-icons">
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon5.svg">
+                    <div>Share</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon6.svg">
+                    <div>Compare</div>
+                </div>
+                <div class="products__card-icons-item">
+                    <img src="assets/images/icon7.svg">
+                    <div>Like</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+        <section class="pages">
+    <div class="pages__item-dark">1</div>
+    <div class="pages__item">2</div>
+    <div class="pages__item">3</div>
+    <div class="pages__item">Next</div>
+</section>
+        <section class="feature">
+    <img src="assets/images/feature4.svg" alt="">
+    <img src="assets/images/feature3.svg" alt="">
+    <img src="assets/images/feature2.svg" alt="">
+    <img src="assets/images/feature1.svg" alt="">
+</section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+    <div class="footer__top-grid">
+        <img src="assets/images/logo2.svg" class="logo-2" width="85px" height="36px">
+        <div class="footer__top-info">400 University Drive Suite 200 Coral <br> Gables, <br>FL 33134 USA</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Links</div>
+        <div class="footer__top-grid-item">Home</div>
+        <div class="footer__top-grid-item">Shop</div>
+        <div class="footer__top-grid-item">About</div>
+        <div class="footer__top-grid-item">Contact</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Help</div>
+        <div class="footer__top-grid-item">Payment Options</div>
+        <div class="footer__top-grid-item">Returns</div>
+        <div class="footer__top-grid-item">Privacy Policies</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Newsletter</div>
+        <form action="#" name="form">
+            <div class="footer__top-grid-form">
+                <input type="email" id="email" placeholder="Enter Your Email Address" required>
+                <button type="submit" id="submit">subscribe</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="footer__bottom">
+    <div class="footr__bottom-text">
+        2023 furino. All rights reverved
+    </div>
+</div>
+    </footer>
+</body>
+</html>

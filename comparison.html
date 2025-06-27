@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Furniro</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+    <a href="#">
+        <img src="assets/images/logo.svg" alt="">
+    </a>
+</div>
+<nav class="header__nav">
+    <ul class="header__list">
+        <li class="header__list-item">
+            <a href="index.html">
+                Home
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="shop.html">
+                Shop
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="blog.html">
+                About
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="contact.html">
+                Contact
+            </a>
+        </li>
+    </ul>
+</nav>
+<div class="header__icons">
+    <ul class="header__list-icons">
+        <li class="header__icons-item">
+            <a href="checkout.html">
+                <img src="assets/images/icon1.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <a href="shop.html">
+                <img src="assets/images/icon2.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <a href="#">
+                <img src="assets/images/icon3.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <label for="toggle-modal" class="modal-icon">
+                <img src="assets/images/icon4.svg" alt="">
+            </label>
+        </li>
+    </ul>
+</div>
+
+
+
+<input type="checkbox" id="toggle-modal" class="modal-toggle">
+<label for="toggle-modal" class="modal-overlay"></label>
+<div class="modal">
+    <div class="modal__title">Shopping Cart</div>
+    <div class="modal__list">
+        <div class="modal__list-item">
+            <img src="/assets/images/sofa4.png" class="modal__image">
+            <div class="modal__list-item-content">
+                <div>Asgaard sofa</div>
+                <div class="modal__list-item-content-price">
+                    1 X <div class="modal__list-item-content-price1">Rs. 250,000.00</div>
+                </div>
+            </div>
+            <a href="#"><img src="assets/images/del.svg" alt=""></a>
+        </div>
+        <div class="modal__list-item">
+            <img src="/assets/images/sofa3.webp" alt="">
+            <div class="modal__list-item-content">
+                <div>Casaliving Wood</div>
+                <div class="modal__list-item-content-price">
+                    1 X <div class="modal__list-item-content-price1">Rs. 270,000.00</div>
+                </div>
+            </div>
+            <a href="#"><img src="assets/images/del.svg" alt=""></a>
+        </div>
+    </div>
+    <div class="modal__subtitle">
+        <div>Subtotal</div>
+        <div class="modal__subtitle-price">Rs. 520,000.00</div>
+    </div>
+    <div class="modal__btns">
+        <a href="cart.html"><button class="modal__btns-btn">Cart</button></a>
+        <a href="checkout.html"><button class="modal__btns-btn">Checkout</button></a>
+        <a href="comparison.html"><button class="modal__btns-btn">Comparison</button></a>
+    </div>
+    <label for="toggle-modal" class="modal-close">
+        <img src="assets/images/shop2.svg" alt="">
+    </label>
+</div>
+    </header>
+    <main class="main">
+        <section class="banner2">
+    <img src="/assets/images/logo-icon.svg" alt="" class="banner__logo">
+    <div class="banner2__title">Product Comparison</div>
+    <div class="banner2__path">
+        <ul class="banner2__list">
+            <li class="banner2__item path-first">Home</li>
+            <li class="banner2__item">Comparison</li>
+        </ul>
+    </div>
+</section>
+        <section class="comparison">
+    <div class="comparison__column">
+        <div class="comparison__column-text">
+            Go to Product <br> page for more <br>Products
+        </div>
+        <input type="text" id="text" placeholder="View More">
+    </div>
+    <div class="column">
+        <div class="comparison__column">
+            <div class="comparison__column-card">
+                <img src="/assets/images/comparison-image1.png" class="comparison__column-card-image">
+                <div class="comparison__column-name">Asgaard Sofa</div>
+                <div class="comparison__column-price">Rs. 250,000.00</div>
+                <div class="comparison__column-rating">
+                    <div class="comparison__column-price">4.7</div>
+                    <img src="assets/images/star-filled.svg" alt="">
+                    <img src="assets/images/star-filled.svg" alt="">
+                    <img src="assets/images/star-filled.svg" alt="">
+                    <img src="assets/images/star-filled.svg" alt="">
+                    <img src="assets/images/star-half.svg" alt="">
+                    <div class="comparison__column-rating-review">204 Review</div>
+                </div>
+            </div>
+        </div>
+        <div class="comparison__column">
+            <div class="comparison__column-card">
+                <img src="/assets/images/comparison-image2.png" class="comparison__column-card-image2">
+                <div class="comparison__column-name">Outdoor Sofa Set</div>
+                <div class="comparison__column-price">Rs. 224,000.00</div>
+                <div class="comparison__column-rating">
+                    <div class="comparison__column-price">4.2</div>
+                    <img src="assets/images/star-filled.svg" alt="">
+                    <img src="assets/images/star-filled.svg" alt="">
+                    <img src="assets/images/star-filled.svg" alt="">
+                    <img src="assets/images/star-filled.svg" alt="">
+                    <img src="assets/images/star-half.svg" alt="">
+                    <div class="comparison__column-rating-review">145 Review</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comparison__column">
+        <div class="comparison__column-title">Add A Product</div>
+        <select name="choose" id="choose">
+            <option selected="selected" disabled="disabled">Choose a Product</option>
+            <option value="val1">Asgaard Sofa</option>
+            <option value="val2">Outdoor Sofa Set</option>
+        </select>
+    </div>
+</section>
+        <section class="comparison_info">
+    <table class="comparison_info__table">
+        <tr>
+            <td class="comparison_info__table-title">General</td>
+            <td class="td-1">&#32;</td>
+            <td class="td-1">&#32;</td>
+        </tr>
+        <tr>
+            <td class="td-1">Sales Package</td>
+            <td class="td-1">1 sectional sofa</td>
+            <td class="td-1">1 Three Seater, 2 Single Seater</td>
+        </tr>
+        <tr>
+            <td class="td-1">Model Number</td>
+            <td class="td-1">TFCBLIGRBL6SRHS</td>
+            <td class="td-1">DTUBLIGRBL568</td>
+        </tr>
+        <tr>
+            <td class="td-1">Secondary Material</td>
+            <td class="td-1">Solid Wood</td>
+            <td class="td-1">Solid Wood</td>
+        </tr>
+        <tr>
+            <td class="td-1">Configuration</td>
+            <td class="td-1">L-shaped</td>
+            <td class="td-1">L-shaped</td>
+        </tr>
+        <tr>
+            <td class="td-1">Upholstery Material</td>
+            <td class="td-1">Fabric + Cotton</td>
+            <td class="td-1">Fabric + Cotton</td>
+        </tr>
+        <tr>
+            <td class="td-1">Upholstery Color</td>
+            <td class="td-1">Bright Grey & Lion</td>
+            <td class="td-1">Bright Grey & Lion</td>
+        </tr>
+        <tr>
+            <td class="td-1">&#32;</td>
+            <td class="td-1">&#32;</td>
+            <td class="td-1">&#32;</td>
+        </tr>
+        <tr>
+            <td class="comparison_info__table-title">Product</td>
+            <td class="td-1">&#32;</td>
+            <td class="td-1">&#32;</td>
+        </tr>
+        <tr>
+            <td class="td-1">Filling Material</td>
+            <td class="td-1">Foam</td>
+            <td class="td-1">Matte</td>
+        </tr>
+        <tr>
+            <td class="td-1">Finish Type</td>
+            <td class="td-1">Bright Grey & Lion</td>
+            <td class="td-1">Bright Grey & Lion</td>
+        </tr>
+        <tr>
+            <td class="td-1">Adjustable Headrest</td>
+            <td class="td-1">No</td>
+            <td class="td-1">Yes</td>
+        </tr>
+        <tr>
+            <td class="td-1">Maximum Load Capacity</td>
+            <td class="td-1">280 KG</td>
+            <td class="td-1">300 KG</td>
+        </tr>
+        <tr>
+            <td class="td-1">Origin of Manufacture</td>
+            <td class="td-1">India</td>
+            <td class="td-1">India</td>
+        </tr>
+        <tr>
+            <td class="td-1">&#32;</td>
+            <td class="td-1">&#32;</td>
+            <td class="td-1">&#32;</td>
+        </tr>
+        <tr>
+            <td class="comparison_info__table-title">Dimensions</td>
+            <td class="td-1">&#32;</td>
+            <td class="td-1">&#32;</td>
+        </tr>
+        <tr>
+            <td class="td-1">Width</td>
+            <td class="td-1">265.32 cm</td>
+            <td class="td-1">265.32 cm</td>
+        </tr>
+        <tr>
+            <td class="td-1">Height</td>
+            <td class="td-1">76 cm</td>
+            <td class="td-1">76 cm</td>
+        </tr>
+        <tr>
+            <td class="td-1">Depth</td>
+            <td class="td-1">167.76 cm</td>
+            <td class="td-1">167.76 cm</td>
+        </tr>
+        <tr>
+            <td class="td-1">Weight</td>
+            <td class="td-1">45 KG</td>
+            <td class="td-1">65 KG</td>
+        </tr>
+        <tr>
+            <td class="td-1">Seat Height</td>
+            <td class="td-1">41.52 cm</td>
+            <td class="td-1">41.52 cm</td>
+        </tr>
+        <tr>
+            <td class="td-1">Leg Height</td>
+            <td class="td-1">5.46 cm</td>
+            <td class="td-1">5.46 cm</td>
+        </tr>
+        <tr>
+            <td class="td-1">&#32;</td>
+            <td class="td-1">&#32;</td>
+            <td class="td-1">&#32;</td>
+        </tr>
+        <tr>
+            <td class="comparison_info__table-title">Warranty</td>
+            <td class="td-1">&#32;</td>
+            <td class="td-1">&#32;</td>
+        </tr>
+        <tr>
+            <td class="td-1">Warranty Summary</td>
+            <td class="td-1">1 Year Manufacturing <br>Warranty</td>
+            <td class="td-1">1.2 Year Manufacturing <br>Warranty</td>
+        </tr>
+        <tr>
+            <td class="td-1">Warranty Service <br>Type</td>
+            <td class="td-1">For Warranty Claims or <br>Any Product Related <br>Issues Please Email at <br>operations@trevifurnitu <br>re.com</td>
+            <td class="td-1">For Warranty Claims or <br>Any Product Related <br>Issues Please Email at <br>support@xyz.com</td>
+        </tr>
+        <tr>
+            <td class="td-1">Covered in Warrantyt</td>
+            <td class="td-1">Warranty Against <br>Manufacturing Defect</td>
+            <td class="td-1">Warranty of the product <br>is limited to <br>manufacturing defects <br>only.</td>
+        </tr>
+        <tr>
+            <td class="td-1">Not Covered in Warranty</td>
+            <td class="td-1">The Warranty Does Not <br>Cover Damages Due To <br>Usage Of The Product <br>Beyond Its Intended Use <br>And Wear & Tear In The <br>Natural Course Of <br>Product Usage.</td>
+            <td class="td-1">The Warranty Does Not <br>Cover Damages Due To <br>Usage Of The Product <br>Beyond Its Intended Use <br>And Wear & Tear In The <br>Natural Course Of <br>Product Usage.</td>
+        </tr>
+        <tr>
+            <td class="td-1">Domestic Warranty</td>
+            <td class="td-1">1 Year</td>
+            <td class="td-1">3 Months</td>
+        </tr>
+        <tr>
+            <td class="td-1">&#32;</td>
+            <td class="td-1">
+                <a href="cart.html"><button class="comparison_info__table-btn">Add To Cart</button></a>
+            </td>
+            <td class="td-1">
+                <a href="cart.html"><button class="comparison_info__table-btn">Add To Cart</button></a>
+                </td>
+        </tr>
+    </table>
+</section>
+        <section class="feature">
+    <img src="assets/images/feature4.svg" alt="">
+    <img src="assets/images/feature3.svg" alt="">
+    <img src="assets/images/feature2.svg" alt="">
+    <img src="assets/images/feature1.svg" alt="">
+</section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+    <div class="footer__top-grid">
+        <img src="assets/images/logo2.svg" class="logo-2" width="85px" height="36px">
+        <div class="footer__top-info">400 University Drive Suite 200 Coral <br> Gables, <br>FL 33134 USA</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Links</div>
+        <div class="footer__top-grid-item">Home</div>
+        <div class="footer__top-grid-item">Shop</div>
+        <div class="footer__top-grid-item">About</div>
+        <div class="footer__top-grid-item">Contact</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Help</div>
+        <div class="footer__top-grid-item">Payment Options</div>
+        <div class="footer__top-grid-item">Returns</div>
+        <div class="footer__top-grid-item">Privacy Policies</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Newsletter</div>
+        <form action="#" name="form">
+            <div class="footer__top-grid-form">
+                <input type="email" id="email" placeholder="Enter Your Email Address" required>
+                <button type="submit" id="submit">subscribe</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="footer__bottom">
+    <div class="footr__bottom-text">
+        2023 furino. All rights reverved
+    </div>
+</div>
+    </footer>
+</body>
+</html>

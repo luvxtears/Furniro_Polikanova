@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Furniro</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+    <a href="#">
+        <img src="assets/images/logo.svg" alt="">
+    </a>
+</div>
+<nav class="header__nav">
+    <ul class="header__list">
+        <li class="header__list-item">
+            <a href="index.html">
+                Home
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="shop.html">
+                Shop
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="blog.html">
+                About
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="contact.html">
+                Contact
+            </a>
+        </li>
+    </ul>
+</nav>
+<div class="header__icons">
+    <ul class="header__list-icons">
+        <li class="header__icons-item">
+            <a href="checkout.html">
+                <img src="assets/images/icon1.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <a href="shop.html">
+                <img src="assets/images/icon2.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <a href="#">
+                <img src="assets/images/icon3.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <label for="toggle-modal" class="modal-icon">
+                <img src="assets/images/icon4.svg" alt="">
+            </label>
+        </li>
+    </ul>
+</div>
+
+
+
+<input type="checkbox" id="toggle-modal" class="modal-toggle">
+<label for="toggle-modal" class="modal-overlay"></label>
+<div class="modal">
+    <div class="modal__title">Shopping Cart</div>
+    <div class="modal__list">
+        <div class="modal__list-item">
+            <img src="/assets/images/sofa4.png" class="modal__image">
+            <div class="modal__list-item-content">
+                <div>Asgaard sofa</div>
+                <div class="modal__list-item-content-price">
+                    1 X <div class="modal__list-item-content-price1">Rs. 250,000.00</div>
+                </div>
+            </div>
+            <a href="#"><img src="assets/images/del.svg" alt=""></a>
+        </div>
+        <div class="modal__list-item">
+            <img src="/assets/images/sofa3.webp" alt="">
+            <div class="modal__list-item-content">
+                <div>Casaliving Wood</div>
+                <div class="modal__list-item-content-price">
+                    1 X <div class="modal__list-item-content-price1">Rs. 270,000.00</div>
+                </div>
+            </div>
+            <a href="#"><img src="assets/images/del.svg" alt=""></a>
+        </div>
+    </div>
+    <div class="modal__subtitle">
+        <div>Subtotal</div>
+        <div class="modal__subtitle-price">Rs. 520,000.00</div>
+    </div>
+    <div class="modal__btns">
+        <a href="cart.html"><button class="modal__btns-btn">Cart</button></a>
+        <a href="checkout.html"><button class="modal__btns-btn">Checkout</button></a>
+        <a href="comparison.html"><button class="modal__btns-btn">Comparison</button></a>
+    </div>
+    <label for="toggle-modal" class="modal-close">
+        <img src="assets/images/shop2.svg" alt="">
+    </label>
+</div>
+    </header>
+    <main class="main">
+        <section class="banner2">
+    <img src="/assets/images/logo-icon.svg" alt="" class="banner__logo">
+    <div class="banner2__title">Contact</div>
+    <div class="banner2__path">
+        <ul class="banner2__list">
+            <li class="banner2__item path-first">Home</li>
+            <li class="banner2__item">Contact</li>
+        </ul>
+    </div>
+</section>
+        <section class="contact">
+    <div class="contact__header">
+        <div class="contact__header-title">Get In Touch With Us</div>
+        <div class="contact__header-subtitle">For More Information About Our Product & Services. Please Feel Free To Drop Us <br>An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</div>
+    </div>
+    <div class="contact__data">
+        <table class="contact__data-table">
+            <tr>
+                <td class="td-3"><img src="assets/images/adress.svg" alt=""></td>
+                <td class="td-3">
+                    <div class="contact__data-table-link">Adress</div>
+                    <div class="contact__data-table-text">236 5th SE Avenue, New <br>York NY10000, United <br>States</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-3"><img src="assets/images/phone.svg" alt=""></td>
+                <td class="td-3">
+                    <div class="contact__data-table-link">Phone</div>
+                    <div class="contact__data-table-text">Mobile: +(84) 546-6789 <br>Hotline: +(84) 456-6789</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-3"><img src="assets/images/clock.svg" alt=""></td>
+                <td class="td-3">
+                    <div class="contact__data-table-link">Working Time</div>
+                    <div class="contact__data-table-text">Monday-Friday: 9:00 - <br>22:00 <br>Saturday-Sunday: 9:00 - <br>21:00</div>
+                </td>
+            </tr>
+        </table>
+        <form action="#" class="contact__data-form">
+            <div class="contact__data-form-item">
+                <div>
+                    <label for="full-name">First Name</label>
+                    <input type="text" name="full-name" id="full-name" required placeholder="Abc">
+                </div>
+            </div>
+            <div class="contact__data-form-item">
+                <div>
+                    <label for="email-address">Email address</label>
+                    <input type="email" name="email-address" id="full-name" required placeholder="Abc@def.com">
+                </div>
+            </div>
+            <div class="contact__data-form-item">
+                <div>
+                    <label for="subject">Subject</label>
+                    <input type="text" name="fsubject" id="full-name" placeholder="This is an optional">
+                </div>
+            </div>
+            <div class="contact__data-form-item">
+                <div>
+                    <label for="message">First Name</label>
+                    <input type="text" name="message" id="message" required placeholder="Hi! i’d like to ask about">
+                </div>
+            </div>
+
+            <button class="submit-form">Submit</button>
+        </form>
+    </div>
+</section>
+        <section class="feature">
+    <img src="assets/images/feature4.svg" alt="">
+    <img src="assets/images/feature3.svg" alt="">
+    <img src="assets/images/feature2.svg" alt="">
+    <img src="assets/images/feature1.svg" alt="">
+</section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+    <div class="footer__top-grid">
+        <img src="assets/images/logo2.svg" class="logo-2" width="85px" height="36px">
+        <div class="footer__top-info">400 University Drive Suite 200 Coral <br> Gables, <br>FL 33134 USA</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Links</div>
+        <div class="footer__top-grid-item">Home</div>
+        <div class="footer__top-grid-item">Shop</div>
+        <div class="footer__top-grid-item">About</div>
+        <div class="footer__top-grid-item">Contact</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Help</div>
+        <div class="footer__top-grid-item">Payment Options</div>
+        <div class="footer__top-grid-item">Returns</div>
+        <div class="footer__top-grid-item">Privacy Policies</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Newsletter</div>
+        <form action="#" name="form">
+            <div class="footer__top-grid-form">
+                <input type="email" id="email" placeholder="Enter Your Email Address" required>
+                <button type="submit" id="submit">subscribe</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="footer__bottom">
+    <div class="footr__bottom-text">
+        2023 furino. All rights reverved
+    </div>
+</div>
+    </footer>
+</body>
+</html>

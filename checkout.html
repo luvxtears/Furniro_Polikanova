@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Furniro</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+    <a href="#">
+        <img src="assets/images/logo.svg" alt="">
+    </a>
+</div>
+<nav class="header__nav">
+    <ul class="header__list">
+        <li class="header__list-item">
+            <a href="index.html">
+                Home
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="shop.html">
+                Shop
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="blog.html">
+                About
+            </a>
+        </li>
+        <li class="header__list-item">
+            <a href="contact.html">
+                Contact
+            </a>
+        </li>
+    </ul>
+</nav>
+<div class="header__icons">
+    <ul class="header__list-icons">
+        <li class="header__icons-item">
+            <a href="checkout.html">
+                <img src="assets/images/icon1.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <a href="shop.html">
+                <img src="assets/images/icon2.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <a href="#">
+                <img src="assets/images/icon3.svg" alt="">
+            </a>
+        </li>
+        <li class="header__icons-item">
+            <label for="toggle-modal" class="modal-icon">
+                <img src="assets/images/icon4.svg" alt="">
+            </label>
+        </li>
+    </ul>
+</div>
+
+
+
+<input type="checkbox" id="toggle-modal" class="modal-toggle">
+<label for="toggle-modal" class="modal-overlay"></label>
+<div class="modal">
+    <div class="modal__title">Shopping Cart</div>
+    <div class="modal__list">
+        <div class="modal__list-item">
+            <img src="/assets/images/sofa4.png" class="modal__image">
+            <div class="modal__list-item-content">
+                <div>Asgaard sofa</div>
+                <div class="modal__list-item-content-price">
+                    1 X <div class="modal__list-item-content-price1">Rs. 250,000.00</div>
+                </div>
+            </div>
+            <a href="#"><img src="assets/images/del.svg" alt=""></a>
+        </div>
+        <div class="modal__list-item">
+            <img src="/assets/images/sofa3.webp" alt="">
+            <div class="modal__list-item-content">
+                <div>Casaliving Wood</div>
+                <div class="modal__list-item-content-price">
+                    1 X <div class="modal__list-item-content-price1">Rs. 270,000.00</div>
+                </div>
+            </div>
+            <a href="#"><img src="assets/images/del.svg" alt=""></a>
+        </div>
+    </div>
+    <div class="modal__subtitle">
+        <div>Subtotal</div>
+        <div class="modal__subtitle-price">Rs. 520,000.00</div>
+    </div>
+    <div class="modal__btns">
+        <a href="cart.html"><button class="modal__btns-btn">Cart</button></a>
+        <a href="checkout.html"><button class="modal__btns-btn">Checkout</button></a>
+        <a href="comparison.html"><button class="modal__btns-btn">Comparison</button></a>
+    </div>
+    <label for="toggle-modal" class="modal-close">
+        <img src="assets/images/shop2.svg" alt="">
+    </label>
+</div>
+    </header>
+    <main class="main">
+        <section class="banner2">
+    <img src="/assets/images/logo-icon.svg" alt="" class="banner__logo">
+    <div class="banner2__title">Checkout</div>
+    <div class="banner2__path">
+        <ul class="banner2__list">
+            <li class="banner2__item path-first">Home</li>
+            <li class="banner2__item">Checkout</li>
+        </ul>
+    </div>
+</section>
+        <section class="checkout">
+    <div class="checkout__list">
+        <div class="checkout__container">
+            <div class="checkout__title">Billing details</div>
+            <div class="checkout__list-data">
+                <form action="#" class="checkout__list-form">
+                    <div class="checkout__list-form-names">
+                        <div>
+                            <label for="name">First Name</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div>
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="name" required>
+                        </div>
+                    </div>
+                    <div class="checkout__list-form-item">
+                        <label for="company">Company Name (Optional)</label>
+                        <input type="text" name="company" id="input-1">
+                    </div>
+                    <div class="checkout__list-form-item">
+                        <label for="country">Country / Region</label>
+                        <select name="country" id="input-1" required>
+                            <option value="1">Sri Lanka</option>
+                            <option value="2">Russia</option>
+                            <option value="3">USA</option>
+                        </select>
+                    </div>
+                    <div class="checkout__list-form-item">
+                        <label for="street">Street address</label>
+                        <input type="text" name="street" id="input-1" required>
+                    </div>
+                    <div class="checkout__list-form-item">
+                        <label for="town">Town / City</label>
+                        <input type="text" name="town" id="input-1" required>
+                    </div>
+                    <div class="checkout__list-form-item">
+                        <label for="province">Province</label>
+                        <select name="province" id="input-1" required>
+                            <option value="1">Western Province</option>
+                            <option value="2">Eastern Province</option>
+                            <option value="3">Northern Province</option>
+                            <option value="4">Southern Province</option>
+                        </select>
+                    </div>
+                    <div class="checkout__list-item">
+                        <label for="zip">ZIP code</label>
+                        <input type="text" name="zip" id="input-1" required>
+                    </div>
+                    <div class="checkout__list-form-item">
+                        <label for="phone">Phone</label>
+                        <input type="number" name="phone" id="input-1" required>
+                    </div>
+                    <div class="checkout__list-form-item">
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="input-1" required>
+                    </div>
+                    <div class="checkout__list-form-item">
+                        <input type="text" name="additional" id="input-1" required placeholder="Additional information">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="checkout__list-place">
+            <div class="checkout__list-place-container">
+                <div class="checkout__list-place-product">
+                    <div class="checkout__list-place-title">Product</div>
+                    <div class="checkout__list-place-product-quantity">
+                        <div class="checkout__list-place-product-quantity-name">Asgaard sofa</div>
+                        <div class="checkout__list-place-product-quantity-number">X 1</div>
+                    </div>
+                    <div>Subtotal</div>
+                    <div>Total</div>
+                </div>
+                <div class="checkout__list-place-product">
+                    <div class="checkout__list-place-title">Subtotal</div>
+                    <div>Rs. 250,000.00</div>
+                    <div>Rs. 250,000.00</div>
+                    <div class="checkout__list-place-product-price">Rs. 250,000.00</div>
+                </div>
+            </div>
+            <div class="checkout__list-place-container2">
+                <div class="checkout__list-place-container2-input">
+                    <input type="radio" id="direct" name="direct">
+                    <label for="direct">Direct Bank Transfer</label>
+                </div>
+                <div class="checkout__list-place-container2-text">Make your payment directly into our bank account.
+                        Please use <br>your Order ID as the payment reference. Your order will not be <br>shipped until
+                        the funds have cleared in our account.</div>
+                <div class="checkout__list-place-container2-input">
+                    <input type="radio" id="direct-bank" name="direct-bank">
+                    <label for="direct-bank" class="direct-bank">Direct Bank Transfer</label>
+                </div>
+                <div class="checkout__list-place-container2-input">
+                    <input type="radio" id="direct-bank" name="direct-bank">
+                    <label for="direct-bank" class="direct-bank">Cash On Delivery</label>
+                </div>
+                <div class="checkout__list-place-container2-input-policy">Your personal data will be used to support your experience <br>throughout this website, to
+                        manage access to your account, and <br>for other purposes described in our <b>privacy
+                            policy.</b></div>
+            </div>
+            <button class="place">Place order</button>
+        </div>
+    </div>
+</section>
+        <section class="feature">
+    <img src="assets/images/feature4.svg" alt="">
+    <img src="assets/images/feature3.svg" alt="">
+    <img src="assets/images/feature2.svg" alt="">
+    <img src="assets/images/feature1.svg" alt="">
+</section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+    <div class="footer__top-grid">
+        <img src="assets/images/logo2.svg" class="logo-2" width="85px" height="36px">
+        <div class="footer__top-info">400 University Drive Suite 200 Coral <br> Gables, <br>FL 33134 USA</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Links</div>
+        <div class="footer__top-grid-item">Home</div>
+        <div class="footer__top-grid-item">Shop</div>
+        <div class="footer__top-grid-item">About</div>
+        <div class="footer__top-grid-item">Contact</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Help</div>
+        <div class="footer__top-grid-item">Payment Options</div>
+        <div class="footer__top-grid-item">Returns</div>
+        <div class="footer__top-grid-item">Privacy Policies</div>
+    </div>
+    <div class="footer__top-grid">
+        <div class="footer__top-grid-title">Newsletter</div>
+        <form action="#" name="form">
+            <div class="footer__top-grid-form">
+                <input type="email" id="email" placeholder="Enter Your Email Address" required>
+                <button type="submit" id="submit">subscribe</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="footer__bottom">
+    <div class="footr__bottom-text">
+        2023 furino. All rights reverved
+    </div>
+</div>
+    </footer>
+</body>
+</html>
